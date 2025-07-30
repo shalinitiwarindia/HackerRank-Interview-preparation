@@ -34,7 +34,4 @@ function miniMaxSum(arr) {
     console.log(minSum, maxSum);
 }
 
-function main() {
-    const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
-    miniMaxSum(arr);
 
