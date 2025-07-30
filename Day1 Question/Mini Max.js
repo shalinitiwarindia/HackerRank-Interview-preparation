@@ -15,9 +15,6 @@ process.stdin.on('end', function() {
     main();
 });
 
-function readLine() {
-    return inputString[currentLine++];
-
 
 function miniMaxSum(arr) {
     arr.sort((a, b) => a - b); // Sort array in ascending order
