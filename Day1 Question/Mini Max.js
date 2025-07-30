@@ -28,10 +28,5 @@ function readLine() {
 function miniMaxSum(arr) {
     arr.sort((a, b) => a - b); // Sort array in ascending order
 
-    let minSum = arr.slice(0, 4).reduce((sum, num) => sum + num, 0); // Sum of the first 4 elements
-    let maxSum = arr.slice(1, 5).reduce((sum, num) => sum + num, 0); // Sum of the last 4 elements
-
-    console.log(minSum, maxSum);
-}
 
 
