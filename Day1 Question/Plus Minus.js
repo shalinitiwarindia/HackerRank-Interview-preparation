@@ -29,11 +29,6 @@ function plusMinus(arr) {
     let n = arr.length;
     let positiveCount = 0, negativeCount = 0, zeroCount = 0;
 
-    for (let num of arr) {
-        if (num > 0) positiveCount++;
-        else if (num < 0) negativeCount++;
-        else zeroCount++;
-    }
-
+ 
 
 
