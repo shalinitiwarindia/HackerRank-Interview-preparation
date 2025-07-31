@@ -38,10 +38,4 @@ function plusMinus(arr) {
     console.log((positiveCount / n).toFixed(6));
     console.log((negativeCount / n).toFixed(6));
     console.log((zeroCount / n).toFixed(6));
-}
 
-function main() {
-    const n = parseInt(readLine().trim(), 10);
-    const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
-    plusMinus(arr);
-}
