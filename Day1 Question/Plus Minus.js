@@ -35,7 +35,5 @@ function plusMinus(arr) {
         else zeroCount++;
     }
 
-    console.log((positiveCount / n).toFixed(6));
-    console.log((negativeCount / n).toFixed(6));
-    console.log((zeroCount / n).toFixed(6));
+
 
